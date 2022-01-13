@@ -1,13 +1,13 @@
 package com.hij.Study7;
-import java.util.*;
 
-public class Menu
+import java.util.Scanner;
+
+public class Test
 {
-	AddView addview = new AddView();
-	Scanner sc = new Scanner(System.in);
-	
-	public void menu()
+	public static void main(String args[])
 	{
+		AddView addview = new AddView();
+		Scanner sc = new Scanner(System.in);
 		int push = 0;
 		while(true)
 		{
@@ -44,6 +44,6 @@ public class Menu
 				System.out.printf("잘못된 입력입니다.\n");
 				continue;
 			}
-		}//public void menu end
+		}
 	}
 }
