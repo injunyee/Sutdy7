@@ -24,4 +24,16 @@ public class AddressStore
 	{
 		return homeAdd;
 	}
+	public void sethomeAdd(String homeAdd)
+	{
+		this.homeAdd = homeAdd;
+	}
+	public String getbirth()
+	{
+		return birth;
+	}
+	public void setbirth(String birth)
+	{
+		this.birth = birth;
+	}
 }
