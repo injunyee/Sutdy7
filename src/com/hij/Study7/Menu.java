@@ -32,17 +32,8 @@ public class Menu
 			}
 			else if(push == 2)
 			{
-				System.out.printf("찾으실 사람의 이름을 입력하세요 ");
-				String find = sc.next();
-				int i = 0;
-				for(i=0; i<addview.personlist.size(); i++)
-				{
-					AddressStore AS = addview.personlist.get(i);
-					if(AS.getname().equals(find))
-					{
-						
-					}
-				}
+
+				addview.search();
 			}
 			else if(push == 3)
 			{
