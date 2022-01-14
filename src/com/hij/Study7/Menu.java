@@ -32,7 +32,6 @@ public class Menu
 			}
 			else if(push == 2)
 			{
-
 				addview.search();
 			}
 			else if(push == 3)
@@ -42,7 +41,7 @@ public class Menu
 			}
 			else if(push == 4)
 			{
-				
+				addview.remove();
 			}
 			else if(push == 5)
 			{

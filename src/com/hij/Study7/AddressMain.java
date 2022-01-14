@@ -17,5 +17,4 @@ public class AddressMain
 		Menu ultimenu = new Menu();
 		ultimenu.menu();
 	}
-	
 }
