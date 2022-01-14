@@ -14,12 +14,8 @@ public class AddressMain
 	// 3. 어떤 클래스에 어떤 매서드가 있는데 명단 정보를 입력하는 일
 	public static void main(String args[])
 	{
-		int a = 50;
+		Menu ultimenu = new Menu();
+		ultimenu.menu();
 	}
 	
-	public void summation()
-	{
-		int b;
-		b = a + 50;
-	}
 }

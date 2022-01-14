@@ -12,7 +12,7 @@ public class AddressStore
 	{
 		this.name = name;
 	}
-	public String email()
+	public String getemail()
 	{
 		return email;
 	}

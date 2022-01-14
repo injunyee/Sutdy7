@@ -20,11 +20,29 @@ public class Menu
 			
 			if(push == 1)
 			{
-				
+				int i = 0;
+				for(i=0; i<addview.personlist.size(); i++)
+				{
+					AddressStore AS = addview.personlist.get(i);
+					System.out.printf("name		: %s\n", AS.getname());
+					System.out.printf("e-mail	: %s\n", AS.getemail());
+					System.out.printf("home add : %s\n", AS.gethomeAdd());
+					System.out.printf("birth 	: %s\n", AS.getbirth());
+				}
 			}
 			else if(push == 2)
 			{
-				
+				System.out.printf("찾으실 사람의 이름을 입력하세요 ");
+				String find = sc.next();
+				int i = 0;
+				for(i=0; i<addview.personlist.size(); i++)
+				{
+					AddressStore AS = addview.personlist.get(i);
+					if(AS.getname().equals(find))
+					{
+						
+					}
+				}
 			}
 			else if(push == 3)
 			{
@@ -44,6 +62,6 @@ public class Menu
 				System.out.printf("잘못된 입력입니다.\n");
 				continue;
 			}
-		}//public void menu end
-	}
+		}//while end
+	}//public void menu end
 }
